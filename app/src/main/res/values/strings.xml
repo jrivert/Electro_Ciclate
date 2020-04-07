@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Centro AcopioII</string>
+    <string name="title_activity_gestion">gestion</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Centro de acopio electrónico</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Administrador</string>
+    <string name="menu_gallery">Buscar</string>
+    <string name="menu_slideshow">Registrar</string>
+    <string name="menu_buscarMapa">Buscar en Mapa </string>
+    <string name="menu_RegistrarCA">Registrar CA</string>
+    <string name="home_second">Home Second</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
