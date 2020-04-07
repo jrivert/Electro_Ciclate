@@ -17,9 +17,9 @@
     </fragment>
     <fragment
         android:id="@+id/nav_home_second"
-        android:name="com.example.centroacopioii.ui.home.HomeSecondFragment"
+        android:name="com.example.centroacopioii.buscarCentroAcopio"
         android:label="@string/home_second"
-        tools:layout="@layout/fragment_home_second">
+        tools:layout="@layout/elemento_lista">
         <action
             android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
             app:destination="@id/nav_home" />
@@ -40,4 +40,19 @@
         android:name="com.example.centroacopioii.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_buscarca"
+        android:name="com.example.centroacopioii.ui.slideshow.SlideshowFragment"
+        android:label="Buscar Lista"
+        tools:layout="@layout/fragment_buscar_centro_acopio" />
+    <fragment
+        android:id="@+id/nav_registrarCA_User"
+        android:name="com.example.centroacopioii.registroNuevo_ca"
+        android:label="Registrar CA Usuario"
+        tools:layout="@layout/fragment_registro_nuevo_ca" />
+    <fragment
+        android:id="@+id/nav_registrarCA_Admin"
+        android:name="com.example.centroacopioii.registro_new_ca_admin"
+        android:label="Registrar CA Admin"
+        tools:layout="@layout/fragment_registro_new_ca_admin" />
 </navigation>

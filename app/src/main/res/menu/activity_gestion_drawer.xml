@@ -17,8 +17,21 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
         <item
+            android:id="@+id/nav_registrarCA_Admin"
+            android:icon="@android:drawable/ic_menu_send"
+            android:title="Registrar CA Admin" />
+        <item
+            android:id="@+id/nav_registrarCA_User"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Registrar CA Usuario" />
+        <item
             android:id="@+id/nav_buscarca"
             android:icon="@android:drawable/ic_menu_search"
             android:title="@string/menu_buscarMapa" />
+
+        <item
+            android:id="@+id/nav_ActualizacionCA"
+            android:icon="@android:drawable/ic_menu_send"
+            android:title="Actualizar Dirección CA" />
     </group>
 </menu>

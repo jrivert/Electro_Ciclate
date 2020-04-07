@@ -11,10 +11,10 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link consultaMapa#newInstance} factory method to
+ * Use the {@link registro_new_ca_admin#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class consultaMapa extends Fragment {
+public class registro_new_ca_admin extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -24,7 +24,7 @@ public class consultaMapa extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public consultaMapa() {
+    public registro_new_ca_admin() {
         // Required empty public constructor
     }
 
@@ -34,11 +34,11 @@ public class consultaMapa extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment consultaMapa.
+     * @return A new instance of fragment registro_new_ca_admin.
      */
     // TODO: Rename and change types and number of parameters
-    public static consultaMapa newInstance(String param1, String param2) {
-        consultaMapa fragment = new consultaMapa();
+    public static registro_new_ca_admin newInstance(String param1, String param2) {
+        registro_new_ca_admin fragment = new registro_new_ca_admin();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,6 +59,6 @@ public class consultaMapa extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_registro_admin, container, false);
+        return inflater.inflate(R.layout.fragment_registro_new_ca_admin, container, false);
     }
 }

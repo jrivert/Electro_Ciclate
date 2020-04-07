@@ -9,7 +9,7 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Administrador</string>
-    <string name="menu_gallery">Buscar</string>
+    <string name="menu_gallery">Buscar en Lista</string>
     <string name="menu_slideshow">Registrar</string>
     <string name="menu_buscarMapa">Buscar en Mapa </string>
     <string name="menu_RegistrarCA">Registrar CA</string>
